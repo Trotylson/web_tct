@@ -5,4 +5,4 @@ curl --header "Content-Type: application/json" --request POST --data '{"username
 curl --header "Content-Type: application/json" --request POST --data '{"username": "trotylson", "password": "123"}' localhost:8000/login
 
 [move by bearer]
-curl --header "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NTQ5NDc0MDQsImlhdCI6MTY1NDk0NzQ2NCwic3ViIjoidHJvdHlsIn0.vG8aCWvWooPpMwDxDtHEoSSzceABwQxgHFlGbNrMwV4" localhost:8000/protected
+curl --header "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTQ5NDc4MjIsInN1YiI6InRyb3R5bCJ9.y7HJviFcnelAyD_ykk8pwlwVfWHlYM7VrRkDHun2P1M" localhost:8000/protected
